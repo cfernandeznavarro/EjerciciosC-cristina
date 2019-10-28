@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>letras repetidas</title>
+    <h1> Ejercicio letras repetidas en JS</h1>
+
+</head>
+
+<body>
+    <script>
+
+        document.write("Fase 1" + "</br>");
+
+        var myName = ['C', 'R', 'I', 'S', 'T', 'I', 'N', 'A'];
+
+
+        for (var i = 0; i < myName.length; i++)
+        {
+            document.write(myName[i]);
+        }
+
+        document.write("</br>" + "</br>" + "Fase 2" + "</br>");
+
+        var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+        parseInt(myName[i]);
+
+        for (var i = 0; i < myName.length; i++)
+        {
+            if (parseInt(myName[i]) != numbers)
+
+                if (myName[i] == 'A' || myName[i] == 'E' || myName[i] == 'I' || myName[i] == 'O' || myName[i] == 'U')
+                    document.write(myName[i] + " es vocal" + "</br>");
+                else
+                    document.write(myName[i] + " es consonante" + "</br>");
+            else
+                document.write(myName[i] + " Es un numero y los nombres de personas no contienen números </br>");
+
+        }
+
+        document.write("</br>" + "</br>" + "Fase 3" + "</br>");
+        document.write("En JS no existen diccionarios, no?");
+
+
+        document.write("</br>" + "</br>" + "Fase 4" + "</br>");
+
+        var mySurname = ['F', 'E', 'R', 'N', 'A', 'N', 'D', 'E', 'Z'];
+
+        var fullName = myName.concat(" ").concat(mySurname);   // O tambien   var fullName = (myName + " " + mySurname); 
+
+
+        document.write("Mi super nombre completo es " + fullName +"</br>");
+
+        document.write("O tambien asi: " +"</br>");
+        for (var i = 0; i < fullName.length; i++)
+        {
+            document.write(fullName[i]);
+        }
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+D:\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.exe
+D:\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.deps.json
+D:\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.runtimeconfig.json
+D:\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.runtimeconfig.dev.json
+D:\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.dll
+D:\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.pdb
+D:\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.csprojAssemblyReference.cache
+D:\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.AssemblyInfoInputs.cache
+D:\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.AssemblyInfo.cs
+D:\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.dll
+D:\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.pdb
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.exe
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.deps.json
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.runtimeconfig.json
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.runtimeconfig.dev.json
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.dll
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\bin\Debug\netcoreapp3.0\VariablesFor.pdb
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.csprojAssemblyReference.cache
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.AssemblyInfoInputs.cache
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.AssemblyInfo.cs
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.dll
+C:\Users\Cristina\Desktop\C#\Ejercicio Variables\C#\VariablesFor\VariablesFor\obj\Debug\netcoreapp3.0\VariablesFor.pdb

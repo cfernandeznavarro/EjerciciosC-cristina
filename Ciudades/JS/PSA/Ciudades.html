@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Introduzca los nombres de las ciudades</h1>
+
+    Ciudad 1: <input id="ciudad1" type="text" style="width: 7%; text-align: right;"></input>
+    Ciudad 2: <input id="ciudad2" type="text" style="width: 7%; text-align: right;"></input>
+    Ciudad 3: <input id="ciudad3" type="text" style="width: 7%; text-align: right;"></input></br></br>
+    Ciudad 4: <input id="ciudad4" type="text" style="width: 7%; text-align: right;"></input>
+    Ciudad 5: <input id="ciudad5" type="text" style="width: 7%; text-align: right;"></input>
+    Ciudad 6: <input id="ciudad6" type="text" style="width: 7%; text-align: right;"></input>
+
+    </br>
+    </br>
+    
+    <button onclick="citiesName()">Continue</button>
+
+  
+
+    </br>
+    </br>
+
+    <script>
+
+        function citiesName() 
+        {
+
+            let city1 = document.getElementById("ciudad1").value;
+
+            let city2 = document.getElementById("ciudad2").value;
+
+            let city3 = document.getElementById("ciudad3").value;
+
+            let city4 = document.getElementById("ciudad4").value;
+
+            let city5 = document.getElementById("ciudad5").value;
+
+            let city6 = document.getElementById("ciudad6").value;
+
+            document.write("Las cuidades introducidas por el usuario son:" + city1 + " " + city2 + " " + city3 + " " + city4 + " " + city5 + " " + city6);
+
+        }   
+
+
+            var cities = [city1, city2, city3, city4, city5, city6];
+
+            cities.Sort();
+
+            array.forEach(element =>
+            {
+                document.write(element)
+            });
+
+            var newcity1 = city1.Replace('a', '4');
+
+            var newcity2 = city2.Replace('a', '4');
+
+            var newcity3 = city3.Replace('a', '4');
+
+            var newcity4 = city4.Replace('a', '4');
+
+            var newcity5 = city5.Replace('a', '4');
+
+            var newcity6 = city6.Replace('a', '4');
+
+            var newcities = new Array(newcity1, newcity2, newcity3, newcity4, newcity5, newcity6);
+
+            newcities.Sort();
+       
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

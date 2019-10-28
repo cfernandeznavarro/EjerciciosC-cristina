@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ciudades</title>
+</head>
+
+<body>
+
+    <div>
+        <h1> Ejercicio ¿molón? sobre arrays en JS</h1>
+
+        Por favor introduce el numero de ciudades con las que quieres realizar el super ejercicio <br /><br />
+
+        <input id="citiesNumber" type="number" /><br /><br />
+
+        <input type="submit" onclick="CititesNumber()" />
+
+    </div>
+
+
+
+    <div id="citiesContainer">
+
+    </div>
+
+
+    <div id="answer">
+
+    </div>
+
+
+
+    <script>
+
+        var 
+        
+        function CititesNumber() 
+        {
+            let inputCitiesNumber = document.getElementById("citiesNumber").value;
+
+            if (!isNaN(inputCitiesNumber))
+            {
+                let num = 1 * inputCitiesNumber;
+
+                for (let i = 1; i < num + 1; i++)
+                {
+                    CityName(i);
+                }
+            }
+            document.getElementById("answer").innerHTML = '<button onclick="ciudades()">Ciudades</button>'
+
+        }
+
+        function CityName(cityNumber) 
+        {
+            let container = citiesContainer // es lo mismo que let container = document.getElementById("citiesContainer");    
+
+            var div = document.createElement("DIV");                 // Create a <li> node
+
+            var textnode = document.createTextNode("Nombre de la ciudad  " + cityNumber + ":");         // Create a text node
+            div.appendChild(textnode);
+
+            var inputCityName = document.createElement("INPUT");
+            inputCityName.setAttribute("id", "caja" + cityNumber);
+            console.log(inputCityName);
+            div.appendChild(inputCityName);
+
+            container.appendChild(div);
+
+        }
+
+        function ciudades(cityNumber)
+        {
+            var nombreCiudades = [];
+            var prueba = "";
+            var concatenar = "";
+
+            for (i = 0; i < cityNumber; i++)
+            {
+                prueba = document.getElementById("caja" + cityNumber).value;
+                concatenar = nombreCiudades.push(prueba);
+
+
+            }
+            console.log(nombreCiudades);
+
+
+
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>

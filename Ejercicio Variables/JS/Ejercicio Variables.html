@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        document.write("Fase 1" + "</br>");
+
+        var name = "Cristina";
+        var surname1 = "Fernandez";
+        var surname2 = "Navarro";
+
+        var day = 7;
+        var month = 7;
+        var year = 1986;
+
+        document.write(surname1 + " " + surname2 + " " + name + "</br>");
+
+        document.write(day + "/" + month + "/" + year + "</br>");
+
+        document.write("</br>");
+
+        document.write("Fase 2" + "</br>");
+
+        const yearleap = 1948;
+        const leapPeriod = 4;
+        const myBirthday = 1986;
+        var contador = 0;
+
+
+        for (yearl = 1948; yearl <= year; yearl += leapPeriod)
+        {
+            contador++;
+        }
+
+        document.write("Entre las dos fechas hay " + contador + " años bisiestos.");
+
+        document.write("</br>");
+
+        document.write("</br>" + "Fase 3" + "</br>");
+
+
+        for (i = yearleap; i <= year; i += leapPeriod)
+        {
+            document.write(i + "</br>");
+        }
+
+
+        var bisiesto = (yearl == year);
+        var textLeap = ("El dia San Fermín cae en año es bisiesto");
+        var textNotLeap = ("El dia San Fermín NO cae en año es bisiesto");
+
+        if (bisiesto == true)
+        {
+            document.write("</br>" + textLeap);
+        }
+        else
+        {
+            document.write("</br>" + textNotLeap);
+        }
+
+        document.write("</br>");
+        document.write("</br>" + "Fase 4" + "</br>");
+
+
+        var fullName = name.concat(" ".concat(surname1.concat(" ".concat(surname2))));
+        document.write("Mi super nombre es " + " " + fullName + "</br>");
+
+        var fullBirthday = (day + "/" + month + "/" + year);
+        document.write("Mi cumple es el dia" + " " + fullBirthday + "</br>");
+
+
+
+    </script>
+
+</body>
+
+</html>
