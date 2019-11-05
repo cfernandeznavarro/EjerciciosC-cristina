@@ -1,0 +1,11 @@
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\obj\Debug\netcoreapp3.0\Restaurante.csprojAssemblyReference.cache
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\obj\Debug\netcoreapp3.0\Restaurante.AssemblyInfoInputs.cache
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\obj\Debug\netcoreapp3.0\Restaurante.AssemblyInfo.cs
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\bin\Debug\netcoreapp3.0\Restaurante.exe
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\bin\Debug\netcoreapp3.0\Restaurante.deps.json
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\bin\Debug\netcoreapp3.0\Restaurante.runtimeconfig.json
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\bin\Debug\netcoreapp3.0\Restaurante.runtimeconfig.dev.json
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\bin\Debug\netcoreapp3.0\Restaurante.dll
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\bin\Debug\netcoreapp3.0\Restaurante.pdb
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\obj\Debug\netcoreapp3.0\Restaurante.dll
+C:\Users\Cristina\Desktop\C#\Restaurante\Restaurante\Restaurante\obj\Debug\netcoreapp3.0\Restaurante.pdb
